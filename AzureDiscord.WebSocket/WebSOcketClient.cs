@@ -38,8 +38,19 @@ namespace AzureDiscord.WebSocket
 
         private string HttpUpgradeRequestString()
         {
+            var key = new byte[16];
+            var rand = new Random();
+            for (var i = 0; i < 16; i++)
+            {
+                key[i] = rand.
+            }
             var builder = new StringBuilder();
-            builder.AppendLine("GET / ")
+            builder.AppendLine("GET / HTTP/1.1");
+            builder.AppendLine($"Host: {WebSocketUrl}");
+            builder.AppendLine("Upgrade: websocket");
+            builder.AppendLine("Connection: Upgrade");
+            builder.AppendLine("Sec-WebSocket-Key: ")
+            return builder.ToString();
         }
     }
 }
