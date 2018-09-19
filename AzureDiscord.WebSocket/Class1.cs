@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace AzureDiscord.WebSocket
@@ -31,6 +32,14 @@ namespace AzureDiscord.WebSocket
             _tcpClient = new TcpClient();
             await _tcpClient.ConnectAsync(WebSocketUrl, Port);
             _stream = _tcpClient.GetStream();
+
+            
+        }
+
+        private string HttpUpgradeRequestString()
+        {
+            var builder = new StringBuilder();
+            builder.AppendLine("GET / ")
         }
     }
 }
