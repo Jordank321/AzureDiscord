@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDiscord.WebSocket", "AzureDiscord.WebSocket\AzureDiscord.WebSocket.csproj", "{70A1DE68-FCEA-4E70-8D42-6D03FFBC9337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDiscord.WebSocket", "AzureDiscord.WebSocket\AzureDiscord.WebSocket.csproj", "{70A1DE68-FCEA-4E70-8D42-6D03FFBC9337}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "TestApp\TestApp.csproj", "{DA332A51-BA33-4C51-BECD-DA824D0D4162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDiscord.DiscordClient", "AzureDiscord.DiscordClient\AzureDiscord.DiscordClient.csproj", "{E2D78759-ECD8-4819-BBBD-797FFD098800}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{70A1DE68-FCEA-4E70-8D42-6D03FFBC9337}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70A1DE68-FCEA-4E70-8D42-6D03FFBC9337}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70A1DE68-FCEA-4E70-8D42-6D03FFBC9337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA332A51-BA33-4C51-BECD-DA824D0D4162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA332A51-BA33-4C51-BECD-DA824D0D4162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA332A51-BA33-4C51-BECD-DA824D0D4162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA332A51-BA33-4C51-BECD-DA824D0D4162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D78759-ECD8-4819-BBBD-797FFD098800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D78759-ECD8-4819-BBBD-797FFD098800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D78759-ECD8-4819-BBBD-797FFD098800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D78759-ECD8-4819-BBBD-797FFD098800}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
